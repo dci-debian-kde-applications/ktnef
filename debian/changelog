@@ -1,9 +1,6 @@
-kcontacts (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+ktnef (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Initial release
-
-  [ Jonathan Riddell ]
-  * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:33:53 +0100
