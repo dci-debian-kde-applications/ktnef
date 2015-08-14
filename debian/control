@@ -21,7 +21,9 @@ Package: libkf5tnef-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5tnef5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5calendarcore-dev,
+         libkf5tnef5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: library for handling TNEF data - development files
  Ktnef is a library for handling data in the TNEF format (Transport Neutral
  Encapsulation Format, a proprietary format of e-mail attachment used by
