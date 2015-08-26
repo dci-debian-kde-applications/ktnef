@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64 i386
 libKF5Tnef.so.5 libkf5tnef5 #MINVER#
  _ZN5KTnef11KTNEFAttach10setMimeTagERK7QString@Base 15.07.90
  _ZN5KTnef11KTNEFAttach11setFileNameERK7QString@Base 15.07.90
@@ -118,3 +118,4 @@ libKF5Tnef.so.5 libkf5tnef5 #MINVER#
  _ZNK5KTnef16KTNEFPropertySet8findPropEiRK7QStringb@Base 15.07.90
  _ZNK5KTnef16KTNEFPropertySet8propertyEi@Base 15.07.90
  _ZNK5KTnef16KTNEFPropertySet9attributeEi@Base 15.07.90
+ (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4:15.08.0
