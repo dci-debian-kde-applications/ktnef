@@ -1,0 +1,60 @@
+Source: ktnef
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libkf5calendarcore-dev,
+               libkf5calendarutils-dev,
+               libkf5contacts-dev,
+               libkf5kdelibs4support-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/ktnef
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/ktnef.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/ktnef.git
+
+Package: libkf5tnef-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libkf5calendarcore-dev,
+         libkf5tnef5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library for handling TNEF data - development files
+ Ktnef is a library for handling data in the TNEF format (Transport Neutral
+ Encapsulation Format, a proprietary format of e-mail attachment used by
+ Microsoft Outlook and Microsoft Exchange Server). The API permits access
+ to the actual attachments, the message properties (TNEF/MAPI), and allows
+ one to view/extract message formatted text in Rich Text Format.
+ .
+ This package contains the development files.
+
+Package: libkf5tnef5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for handling TNEF data
+ Ktnef is a library for handling data in the TNEF format (Transport Neutral
+ Encapsulation Format, a proprietary format of e-mail attachment used by
+ Microsoft Outlook and Microsoft Exchange Server). The API permits access
+ to the actual attachments, the message properties (TNEF/MAPI), and allows
+ one to view/extract message formatted text in Rich Text Format.
+
+Package: libkf5tnef-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5tnef5 (= ${binary:Version}), ${misc:Depends}
+Description: library for handling TNEF data - debug symbols
+ Ktnef is a library for handling data in the TNEF format (Transport Neutral
+ Encapsulation Format, a proprietary format of e-mail attachment used by
+ Microsoft Outlook and Microsoft Exchange Server). The API permits access
+ to the actual attachments, the message properties (TNEF/MAPI), and allows
+ one to view/extract message formatted text in Rich Text Format.
+ .
+ This package contains the debug symbols.
