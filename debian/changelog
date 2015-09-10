@@ -1,3 +1,9 @@
+ktnef (15.08.0-1~) UNRELEASED; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 11:56:10 +0200
+
 ktnef (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
