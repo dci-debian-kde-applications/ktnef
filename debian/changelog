@@ -1,6 +1,7 @@
 ktnef (15.12.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Bump build dependencies to match packages versions, and not
+    libraries versions.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Feb 2016 09:45:40 +0100
 

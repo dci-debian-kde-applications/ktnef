@@ -6,9 +6,9 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.14.0~),
-               libkf5calendarcore-dev (>= 4.79.0~),
-               libkf5calendarutils-dev (>= 4.79.0~),
-               libkf5contacts-dev (>= 4.91.0~),
+               libkf5calendarcore-dev (>= 4:15.12~),
+               libkf5calendarutils-dev (>= 15.12~),
+               libkf5contacts-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.14.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0~)
@@ -21,7 +21,7 @@ Package: libkf5tnef-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5calendarcore-dev (>= 4.79.0~),
+Depends: libkf5calendarcore-dev (>= 4:15.12~),
          libkf5tnef5 (= ${binary:Version}),
          ${misc:Depends}
 Description: library for handling TNEF data - development files
