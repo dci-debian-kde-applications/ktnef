@@ -6,6 +6,7 @@ ktnef (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
   * New upstream release (15.12.1)
+  * Bump dependency version pim* 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:21:02 +0000
 
