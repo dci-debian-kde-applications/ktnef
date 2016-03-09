@@ -1,4 +1,4 @@
-ktnef (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+ktnef (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -8,7 +8,7 @@ ktnef (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release (15.12.1)
   * Bump dependency version pim* 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:21:02 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:16:55 +0100
 
 ktnef (4:15.08.2-0ubuntu1) wily; urgency=medium
 
