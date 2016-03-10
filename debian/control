@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 5.14.0~),
                libkf5calendarcore-dev (>= 4:15.12.1~),
                libkf5calendarutils-dev (>= 4:15.12.1~),
-               libkf5contacts-dev (>= 15.12.1~), 
+               libkf5contacts-dev (>= 4:15.12.1~), 
                libkf5kdelibs4support-dev (>= 5.14.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0~)

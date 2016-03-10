@@ -1,3 +1,9 @@
+ktnef (4:15.12.1-0ubuntu3) xenial; urgency=medium
+
+  * Add missing epoch kcontacts build dep. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 18:55:01 -0800
+
 ktnef (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
   * Add missing epochs to kcal* build depends. 
