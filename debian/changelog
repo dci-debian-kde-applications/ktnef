@@ -1,5 +1,8 @@
-ktnef (16.04.0-1~1.gbp361698) UNRELEASED; urgency=medium
+ktnef (16.04.0-1~2.gbp97bd1f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @97bd1f9ccf0df707251ebabd12bede9065b6eb4b **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @3616988c25f766bd3a9b714ecf1d5e1457e750cf **
 
   * Bump Standards-Version to 3.9.8
@@ -7,7 +10,13 @@ ktnef (16.04.0-1~1.gbp361698) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:15:14 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 20:04:07 +0200
 
 ktnef (15.12.0-2) experimental; urgency=medium
 
