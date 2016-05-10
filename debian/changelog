@@ -1,6 +1,6 @@
-ktnef (16.04.0-1~2.gbp97bd1f) UNRELEASED; urgency=medium
+ktnef (16.04.1-1~1.gbp8b8dbe) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @97bd1f9ccf0df707251ebabd12bede9065b6eb4b **
+  ** SNAPSHOT build @8b8dbeac8fcc0bfd5fd30659a446cbe868f8ca82 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @3616988c25f766bd3a9b714ecf1d5e1457e750cf **
@@ -15,8 +15,9 @@ ktnef (16.04.0-1~2.gbp97bd1f) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 20:04:07 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:15:29 +0200
 
 ktnef (15.12.0-2) experimental; urgency=medium
 
