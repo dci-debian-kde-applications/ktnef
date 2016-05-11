@@ -1,6 +1,6 @@
-ktnef (16.04.1-1~1.gbp8b8dbe) UNRELEASED; urgency=medium
+ktnef (16.04.1-1~2.gbpab1076) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8b8dbeac8fcc0bfd5fd30659a446cbe868f8ca82 **
+  ** SNAPSHOT build @ab10764d793ea95ee69d3293fc29b904116ee48c **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @3616988c25f766bd3a9b714ecf1d5e1457e750cf **
@@ -16,8 +16,9 @@ ktnef (16.04.1-1~1.gbp8b8dbe) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
   * UNRELEASED
+  * Add missing build dependency
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:15:29 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 12:12:32 +0200
 
 ktnef (15.12.0-2) experimental; urgency=medium
 
