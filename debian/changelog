@@ -1,3 +1,11 @@
+ktnef (16.04.2-1~1.gbp1ce4d7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1ce4d7049c0855bc16eafc039e20c45fc6455b3d **
+
+  * Update symbols files from buildds logs (16.04.1-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:15:23 +0200
+
 ktnef (16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
