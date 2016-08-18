@@ -1,10 +1,16 @@
-ktnef (16.04.3-1~1.gbpee60b8) UNRELEASED; urgency=medium
+ktnef (16.08.0-1~1.gbpc3ab19) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c3ab1917ee781417513340b698bb14c3c99c2e14 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @ee60b8a78cd08fd464986d08f05611d3d7ed19d9 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:15:36 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:15:14 +0200
 
 ktnef (16.04.2-1) unstable; urgency=medium
 
