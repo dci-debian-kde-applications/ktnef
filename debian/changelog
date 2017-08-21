@@ -1,3 +1,9 @@
+ktnef (4:17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Aug 2017 22:24:10 +0200
+
 ktnef (4:17.08.0-0neon) xenial; urgency=medium
 
   * New release
@@ -81,21 +87,6 @@ ktnef (4:16.04.3-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:24 +0000
-
-ktnef (16.08.1-1~1.gbpd4c3e9) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d4c3e9ba5749eb045d77b5c61802dc6a9b6f3481 **
-
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @ee60b8a78cd08fd464986d08f05611d3d7ed19d9 **
-
-  * UNRELEASED
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:40:06 +0200
 
 ktnef (16.04.2-1) unstable; urgency=medium
 
