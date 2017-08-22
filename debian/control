@@ -38,8 +38,12 @@ Package: libkf5tnef5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: library for handling TNEF data
  Ktnef is a library for handling data in the TNEF format (Transport Neutral
  Encapsulation Format, a proprietary format of e-mail attachment used by
