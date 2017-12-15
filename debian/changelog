@@ -4,6 +4,7 @@ ktnef (4:17.08.3-1) UNRELEASED; urgency=medium
   * New upstream release (17.08.3) (Closes: #856321).
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
   * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Mark libkf5tnef-dev not as Multi-Arch: foreign.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 19:55:14 +0100
 

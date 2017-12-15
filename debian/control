@@ -21,7 +21,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ktnef.git
 Package: libkf5tnef-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5calendarcore-dev (>= 4:15.12~),
          libkf5tnef5 (= ${binary:Version}),
          ${misc:Depends},
